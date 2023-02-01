@@ -23,7 +23,7 @@ Now move to the **Other Software** tab, check the option of **Canonical Partners
 You’ll have to enter your password in order to update the software sources. Once it completes, you’ll find more applications to install in the Software Center.
 
 ####	3.  Install All Missing / Additional Drivers
-To install Additional or Missing Drivers on your Ubuntu 18.04 LTS dekstop,
+To install Additional or Missing Drivers on your Ubuntu 22.04 LTS dekstop,
 - Open Gnome Search Box search for Software & update.
 - Click on “Additional Drivers” Tab and follow the specific instructions provided on the screen.
 
@@ -116,7 +116,7 @@ The last thing would be to add the Flathub repository that will give you access 
 	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 >The only **downside** is that you’ll see multiple applications in Ubuntu software center. Flatpak applications are tagged with source dl.flathub.org and thus you can easily distinguish them.
-####	13. Opt out of data collection in Ubuntu 18.04 (optional)
+####	13. Opt out of data collection in Ubuntu 22.04 (optional)
 you can disable it by going to System Settings -> Privacy and then set the Problem Reporting to Manual or you can set it to never.
 
 Tip #1: Use apt-fast instead of apt-get
