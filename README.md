@@ -5,7 +5,7 @@ Things To Do After Installing Ubuntu 22.04.
 
 	sudo apt update && sudo apt upgrade
 
-# Install the package build-essential for making the package and checkinstall for putting it into your package manager
+Install the package build-essential for making the package and checkinstall for putting it into your package manage
 
         sudo apt -y install build-essential checkinstall
 
