@@ -31,6 +31,10 @@ To install Additional or Missing Drivers on your Ubuntu 22.04 LTS dekstop,
 In order to play media files like MP#, MPEG4, AVI etc, you’ll need to install media codecs. Ubuntu has them in their repository but doesn’t install it by default because of copyright issues in various countries.
 	
 	sudo apt install ubuntu-restricted-extras
+
+Sometimes we may have different multimedia files and we would like to play them. Unfortunately, you will need to download another set of packages into your system. This is done via:
+
+        sudo apt install ubuntu-restricted-addons
 	
 ####	5. Improve Battery by installing TLP for Linux
 
@@ -97,8 +101,17 @@ Synaptic is the famous package manager for Ubuntu. It was default back in older 
 Unfortunately, it was removed from the default software pool in Ubuntu 11.04. But still can be installed from the official repositories with a single command (Run it in terminal, Ctrl + Alt + T):
 
         sudo apt install synaptic
+
+####	13.Add AppImage Support
+AppImages are one of the famous ways for software delivery on Linux. They are just like .exe files on Windows, which contain all the app’s files and dependencies inside the same file. This means that the user will just have to download the corresponding AppImage and click it in order for the software to run.
+
+While AppImages are universal, and can easily work on any Linux distribution (Fedora, openSUSE, Mint… etc), sadly Canonical has opted for removing one of the most basic libraries that enable AppImages to work out of the box, which is libfuse2, which by turn prevents users from running any AppImages on fresh Ubuntu 22.04 installations.
+
+The solution is simply to install that library with the following command:
+
+        sudo apt install libfuse2
 	
-####	13.Use Flatpak in Ubuntu 18.04 to get access to more applications 
+####	14.Use Flatpak in Ubuntu 18.04 to get access to more applications 
 Flatpak is a universal packaging system from Fedora. Like Snap, you can install Flatpak packaged applications in various Linux distributions that support Flatpak. 
 
 >Ubuntu 18.04 supports Flatpak by default. However, with a few tweaks, you can get Flatpak applications directly in Ubuntu Software Center. This will enable you to easily install additional applications like Viber etc which you won’t find in the default Ubuntu Software Center.
