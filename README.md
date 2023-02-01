@@ -9,15 +9,6 @@ Install the package build-essential for making the package and checkinstall for 
 
        sudo apt -y install build-essential checkinstall
 
-Force any missing install, autoremove unused package, autoclean, clean update & reboot system
-
-       sudo apt -f install 
-       sudo apt autoremove 
-       sudo apt -y autoclean 
-       sudo apt -y clean 
-       sudo apt update 
-       sudo reboot
-
 #### 2. Enable additional repositories for more software
 Ubuntu has several repositories from where it provides software for your system. 
 Enabling all these repositories will give you access to more software and proprietary drivers.
@@ -99,8 +90,15 @@ GNOME Extensions website: https://extensions.gnome.org/
 allow you to customize your desktop environment the way you like. 
 	
 	sudo apt install gnome-tweaks -y
+
+####	12.Install Synaptic
+Synaptic is the famous package manager for Ubuntu. It was default back in older Ubuntu releases (Like 10.04 LTS), but was removed many years ago. The main feature of Synaptic is the ability to show you all the packages you are looking for in less than few seconds. It’s very efficient to install/remove system packages with it.
+
+Unfortunately, it was removed from the default software pool in Ubuntu 11.04. But still can be installed from the official repositories with a single command (Run it in terminal, Ctrl + Alt + T):
+
+        sudo apt install synaptic
 	
-####	12.Use Flatpak in Ubuntu 18.04 to get access to more applications 
+####	13.Use Flatpak in Ubuntu 18.04 to get access to more applications 
 Flatpak is a universal packaging system from Fedora. Like Snap, you can install Flatpak packaged applications in various Linux distributions that support Flatpak. 
 
 >Ubuntu 18.04 supports Flatpak by default. However, with a few tweaks, you can get Flatpak applications directly in Ubuntu Software Center. This will enable you to easily install additional applications like Viber etc which you won’t find in the default Ubuntu Software Center.
