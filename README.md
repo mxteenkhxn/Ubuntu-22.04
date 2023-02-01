@@ -114,7 +114,7 @@ The solution is simply to install that library with the following command:
 ####	14.Use Flatpak in Ubuntu 18.04 to get access to more applications 
 Flatpak is a universal packaging system from Fedora. Like Snap, you can install Flatpak packaged applications in various Linux distributions that support Flatpak. 
 
->Ubuntu 18.04 supports Flatpak by default. However, with a few tweaks, you can get Flatpak applications directly in Ubuntu Software Center. This will enable you to easily install additional applications like Viber etc which you won’t find in the default Ubuntu Software Center.
+>Ubuntu 22.04 supports Flatpak by default. However, with a few tweaks, you can get Flatpak applications directly in Ubuntu Software Center. This will enable you to easily install additional applications like Viber etc which you won’t find in the default Ubuntu Software Center.
 
 First, check if Flatpak support is enabled or not (minimal install option don’t have Flatpak:
 
