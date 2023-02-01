@@ -7,7 +7,16 @@ Things To Do After Installing Ubuntu 22.04.
 
 Install the package build-essential for making the package and checkinstall for putting it into your package manage
 
-        sudo apt -y install build-essential checkinstall
+       sudo apt -y install build-essential checkinstall
+
+Force any missing install, autoremove unused package, autoclean, clean update & reboot system
+
+       sudo apt -f install 
+       sudo apt autoremove 
+       sudo apt -y autoclean 
+       sudo apt -y clean 
+       sudo apt update 
+       sudo reboot
 
 #### 2. Enable additional repositories for more software
 Ubuntu has several repositories from where it provides software for your system. 
