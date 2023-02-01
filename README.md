@@ -1,11 +1,13 @@
-# Ubuntu-22.04
+## Ubuntu-22.04
 Things To Do After Installing Ubuntu 22.04.
 
-## Beginners Ubuntu
-A Beginners Guide To Things To Do After Installing Ubuntu.
 ####	1. Check For Updates
 
 	sudo apt update && sudo apt upgrade
+
+# Install the package build-essential for making the package and checkinstall for putting it into your package manager
+
+        sudo apt -y install build-essential checkinstall
 
 #### 2. Enable additional repositories for more software
 Ubuntu has several repositories from where it provides software for your system. 
